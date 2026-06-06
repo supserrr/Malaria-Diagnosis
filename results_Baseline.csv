@@ -1,0 +1,8 @@
+owner,model,experiment,config,accuracy,precision,recall,f1,train_acc,val_acc,overfit_gap,epochs_run,train_sec
+Dan Paul Dushime,Baseline CNN,E1 Adam lr1e-3,"Adam 1e-3, 16/32, dense 64",0.9376,0.9428,0.9318,0.9373,0.9913,0.9434,0.048,9,40.3
+Dan Paul Dushime,Baseline CNN,E2 Adam lr1e-4,Adam 1e-4 (lower LR),0.9306,0.9459,0.9134,0.9294,0.9581,0.9276,0.0305,15,62.6
+Dan Paul Dushime,Baseline CNN,E3 RMSprop lr1e-3,RMSprop 1e-3,0.9391,0.9495,0.9275,0.9384,0.9899,0.9451,0.0448,10,41.6
+Dan Paul Dushime,Baseline CNN,E4 SGD-momentum,SGD 1e-2 momentum 0.9,0.9434,0.9421,0.9449,0.9435,0.9677,0.9494,0.0183,11,44.5
+Dan Paul Dushime,Baseline CNN,E5 wider filters,Wider 32/64 dense 128,0.9396,0.9662,0.911,0.9378,0.9931,0.9373,0.0558,8,63.8
+Dan Paul Dushime,Baseline CNN,E6 +dropout0.5,Wider + dropout 0.5,0.9441,0.9576,0.9294,0.9433,0.9792,0.9431,0.036,9,71.9
+Dan Paul Dushime,Baseline CNN,E7 dense256,Dense 256 + dropout 0.3,0.9403,0.9501,0.9294,0.9396,0.9869,0.9383,0.0486,8,72.1
